@@ -6,7 +6,7 @@
 
 #include <security/Security.h>
 
-namespace dev {
+namespace security {
 
 void seblockchain_init(Security const& security)
 {
