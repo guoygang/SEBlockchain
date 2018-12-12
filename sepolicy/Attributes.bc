@@ -1,0 +1,38 @@
+#
+# Attribute declarations
+#
+# Author: guoygang(hero.gariker@gmail.com)
+#
+
+# All types used for contract
+attribute contract
+
+# All contracts used for d_apps(external account or contract account)
+attribute dapp
+
+# All third party dapps
+attribute untrusted_dapp;
+
+# Tx interface should be available to dapps
+attribute dapp_tx_api_interface
+
+# Tx interface should be available to none dapps
+attribute none_dapp_tx_api_interface
+
+# Block interface should be available to dapps
+attribute dapp_block_api_interface
+
+# Block interface should be available to none dapps
+attribute none_dapp_block_api_interface
+
+# System interface should be available to dapp
+attribute dapp_system_api_interface
+
+# System interface should be available to none dapp
+attribute none_dapp_system_api_interface
+
+# Used for recursive call.
+attribute recursive_type
+
+# All types used for operations that rw storage.
+attribute storage_type
