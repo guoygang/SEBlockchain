@@ -1,0 +1,9 @@
+#
+# Author: guoygang
+#
+
+allow dapp recursive_type:function_xxxx write
+
+allow dapp recursive_type:function_yyyy read
+
+allow dapp recursive_type:function_zzzz { -dapp_tx_api_interface -storage_type }

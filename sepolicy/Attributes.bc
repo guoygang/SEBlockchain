@@ -7,6 +7,10 @@
 # All types used for contract
 attribute contract
 
+attribute create_contract
+
+attribute destroy_contract
+
 # All contracts used for d_apps(external account or contract account)
 attribute dapp
 

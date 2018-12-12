@@ -1,0 +1,4 @@
+# Deconstruct
+type destroy, contract;
+type destroy_exec, destroy_contract, storage_type;
+

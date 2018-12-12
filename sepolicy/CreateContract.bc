@@ -1,0 +1,3 @@
+# Creator
+type creator, contract;
+type creator_exec, create_contract, storage_type;
